@@ -11,7 +11,7 @@
   
  2. Create a Bootable USB :
 
-    Install **balenaEtcher** , Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
+    Install [**`balenaEtcher`**](https://etcher.balena.io/#download-etcher), Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
 
  3. Backup Important Data: 
 
