@@ -33,5 +33,7 @@
   After your computer has restarted, you'll be taken to the login screen. Enter your username and password to log in.
 * Update and Install Software: 
   Once you've logged in, you should update   your system and install any necessary software. You can do this by opening the terminal (Ctrl+Alt+T) and running the following commands:
+  
   **> sudo apt-get update && sudo apt-get dist-upgrade**
+  
   **> sudo apt-get install ubuntu-restricted-extras**
