@@ -3,9 +3,9 @@
 
 ### **Wifi**
 
-* Type in any one of following commands :
+* Type in any one of following commands on ubuntu terminal:
 
-      `>sudo systemctl restart network-manager`
+      `>sudo systemctl restart network-manager` 
 
       `>sudo apt install linux-firmware`
 
