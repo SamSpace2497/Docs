@@ -11,15 +11,15 @@
   
  2. Create a Bootable USB :
 
-    Install [**`balenaEtcher`**](https://etcher.balena.io/#download-etcher). Select image, choose USB flash drive, and click **Flash!** to install your image.
+    Install [**`balenaEtcher`**](https://etcher.balena.io/#download-etcher), select image, choose USB flash drive, and click **Flash!** to install your image.
 
  3. Backup : 
 
-    Before installation, backup important data on your computer for safety.
+    Before installation, backup important data from device for safety.
 
  4. Boot from USB: 
 
-    Insert USB flash drive into device, install Ubuntu and Restart and boot from USB drive. If not, try holding F12 during startup and selecting the USB device from the system-specific boot menu. 
+    Insert USB flash drive, install Ubuntu, restart and boot from USB drive. Hold F12 for system-specific boot menu. 
 
  5. Start Ubuntu Installation: 
 
@@ -31,39 +31,39 @@
   
  7. Prepare Installation: 
 
-    You'll be asked what kind of installation you want to perform. If you want to install Ubuntu alongside another operating system, select "Install Ubuntu alongside [other OS]". If you want to replace your existing operating system with Ubuntu, select "Erase disk and install Ubuntu". If you want to manually partition your disk, select "Something else".
+    Ubuntu alongside another operating system? "Install Ubuntu alongside [other OS]".
 
- 8. Allocate Drive Space: 
+    Replace existing OS with Ubuntu? "Erase disk and install Ubuntu".
 
-    If you choose to manually partition your disk, you'll be asked to allocate drive space for Ubuntu. This involves creating and sizing partitions for root, home, and swap.
+    For manual partition of disk, select "Something else".
+
+ 9. Allocate Drive Space: 
+
+    Allocate drive space for Ubuntu (Involves creating and sizing partitions for root, home, and swap).
 
 10. Select Location: 
 
-    On the next screen, select your location. This will be used to set your time zone.
+    Select location to set time zone.
 
 11. Login Details: 
 
-    You'll be asked to enter your name, computer's name, username, and password. Make sure to use a strong password.
+    Enter name, device name, username, and password.
 
 12. Installation: 
 
-    The installation will now begin. This may take a few      minutes.
+    Installation begins, may take few minutes.
 
-13. Restart: 
+13. Remove USB & Restart: 
 
-    Once the installation is complete, you'll be asked to restart  your computer.
+    Once installation completes, remove USB & restart device.
 
-14. Remove USB: 
+14. Login: 
 
-    Remove the USB drive when prompted, then press enter to  restart your computer.
+    After restart, login with username and password.
 
-15. Login: 
+15. Update and Install Software: 
 
-    After your computer has restarted, you'll be taken to the login screen. Enter your username and password to log in.
-
-16. Update and Install Software: 
-
-    Once you've logged in, you should update   your system and install any necessary software. You can do this by opening the terminal (Ctrl+Alt+T) and running the following commands:
+    Once logged in, update system and install necessary software by running following commands on terminal (Ctrl+Alt+T).
   
     `> sudo apt-get update && sudo apt-get dist-upgrade`
   
