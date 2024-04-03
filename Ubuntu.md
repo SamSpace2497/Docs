@@ -3,13 +3,15 @@
 
 ### **Installation Ubuntu**
 
+**Follow the guide to install Ubuntu:** `[GUIDE](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)`
+
 * Download Ubuntu ISO:
   
-  [Ubuntu Website](https://ubuntu.com/download/desktop) & Ubuntu image(ISO file).
+  Goto [Ubuntu Website](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
   
 * Create a Bootable USB: 
 
-  Install balenaEtcher. Select downloaded ISO, choose USB flash drive, and then click Flash! to install your image.
+  Install **balenaEtcher** , Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
 
 * Backup Important Data: 
 
