@@ -6,9 +6,11 @@
 **Follow the guide to install Ubuntu :**  [`Install Ubuntu desktop`](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
   1. Download Ubuntu ISO :
-     Goto [Ubuntu Website](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
+     
+     Goto [`Ubuntu Website`](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
   
   2. Create a Bootable USB :
+
      Install **balenaEtcher** , Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
 
   3. Backup Important Data: 
@@ -19,17 +21,17 @@
 
      Insert the USB flash drive into the laptop or PC you want to use to install Ubuntu and Restart your computer and boot from the USB drive. You may need to change the boot order in your BIOS settings to do this.It should recognise the installation media automatically. If not, try holding F12 during startup and selecting the USB device from the system-specific boot menu. 
 
-* Start Ubuntu Installation: 
+  5. Start Ubuntu Installation: 
 
-  Once you've booted from the USB drive, you'll see the Ubuntu installation menu. Select "Install Ubuntu" and press enter.
+     Once you've booted from the USB drive, you'll see the Ubuntu installation menu. Select "Install Ubuntu" and press enter.
 
-* Select Language and Keyboard Layout: 
+  6. Select Language and Keyboard Layout: 
 
-  On the next screen, select your language and keyboard layout.
+     On the next screen, select your language and keyboard layout.
+  
+  7. Prepare Installation: 
 
-* Prepare Installation: 
-
-  You'll be asked what kind of installation you want to perform. If you want to install Ubuntu alongside another operating system, select "Install Ubuntu alongside [other OS]". If you want to replace your existing operating system with Ubuntu, select "Erase disk and install Ubuntu". If you want to manually partition your disk, select "Something else".
+     You'll be asked what kind of installation you want to perform. If you want to install Ubuntu alongside another operating system, select "Install Ubuntu alongside [other OS]". If you want to replace your existing operating system with Ubuntu, select "Erase disk and install Ubuntu". If you want to manually partition your disk, select "Something else".
 
 * Allocate Drive Space: 
 
