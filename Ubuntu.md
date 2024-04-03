@@ -3,11 +3,11 @@
 
 ### **Installation**
 
-**Follow the guide to install Ubuntu :**  [`Install Ubuntu desktop`](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+**Follow the guide to install Ubuntu :**  [**`Install Ubuntu desktop`**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
  1. Download Ubuntu ISO :
      
-    Goto [`Ubuntu Website`](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
+    Goto [**`Ubuntu Website`**](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
   
  2. Create a Bootable USB :
 
