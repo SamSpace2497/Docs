@@ -37,6 +37,6 @@
    
        `->select partition (partitionname)`
    
-      `->delete partition (partitionname)` 
+       `->delete partition (partitionname)` 
 
 3. Click Start > Power > Shut Down
