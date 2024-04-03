@@ -5,17 +5,19 @@
 
 **Follow the guide to install Ubuntu :**  [`Install Ubuntu desktop`](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
-  1. Download Ubuntu ISO : Goto [Ubuntu Website](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
+  1. Download Ubuntu ISO :
+     Goto [Ubuntu Website](https://ubuntu.com/download/desktop) & download ubuntu image(ISO file).
   
-  2. Create a Bootable USB : Install **balenaEtcher** , Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
+  2. Create a Bootable USB :
+     Install **balenaEtcher** , Select downloaded ISO file, choose USB flash drive, and then click Flash! to install your image.
 
-* Backup Important Data: 
+  3. Backup Important Data: 
 
-  Before you start the installation, it's a good idea to backup any important data on your computer. While it's unlikely that anything will go wrong, it's always better to be safe.
+     Before you start the installation, it's a good idea to backup any important data on your computer. While it's unlikely that anything will go wrong, it's always better to be safe.
 
-* Boot from USB: 
+  4. Boot from USB: 
 
-  Insert the USB flash drive into the laptop or PC you want to use to install Ubuntu and Restart your computer and boot from the USB drive. You may need to change the boot order in your BIOS settings to do this.It should recognise the installation media automatically. If not, try holding F12 during startup and selecting the USB device from the system-specific boot menu. 
+     Insert the USB flash drive into the laptop or PC you want to use to install Ubuntu and Restart your computer and boot from the USB drive. You may need to change the boot order in your BIOS settings to do this.It should recognise the installation media automatically. If not, try holding F12 during startup and selecting the USB device from the system-specific boot menu. 
 
 * Start Ubuntu Installation: 
 
