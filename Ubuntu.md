@@ -63,6 +63,6 @@
 
   Once you've logged in, you should update   your system and install any necessary software. You can do this by opening the terminal (Ctrl+Alt+T) and running the following commands:
   
-  **> sudo apt-get update && sudo apt-get dist-upgrade**
+  `> sudo apt-get update && sudo apt-get dist-upgrade`
   
-  **> sudo apt-get install ubuntu-restricted-extras**
+  `> sudo apt-get install ubuntu-restricted-extras`
