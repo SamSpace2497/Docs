@@ -3,7 +3,7 @@
 
 ### **Installation Ubuntu**
 
-**Follow the guide to install Ubuntu :**  [`GUIDE`](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+**Follow the guide to install Ubuntu :**  [`Install Ubuntu desktop`](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
 * Download Ubuntu ISO:
   
