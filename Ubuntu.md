@@ -80,9 +80,9 @@
    Use the adduser command to add the new user, followed by the username. For example:
   
 
-      > sudo adduser [newuser]
+       > sudo adduser [newuser]
 
-      > su [newuser] (to switch to the new user)
+       > su [newuser] (to switch to the new user)
 
 2. Create home directory:
 
