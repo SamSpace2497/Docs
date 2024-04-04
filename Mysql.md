@@ -149,4 +149,8 @@
 
     If there are any remaining packages, you can remove them using the apt-get remove command.
 
+<<<<<<< HEAD
     That's it! MySQL has now been uninstalled from your Ubuntu system.
+=======
+    That's it! MySQL has now been uninstalled from your Ubuntu system.
+>>>>>>> cc152b4744900bc02bb6ddea9cf43f8ebb8b3ff8
