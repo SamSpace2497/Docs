@@ -1,5 +1,6 @@
 # **Ubuntu Setup**
 
+&nbsp;
 
 ### **Installation :**
 
@@ -21,10 +22,9 @@
 
      &nbsp;
 
-
  1. Download Ubuntu ISO :
      
-    Goto [**Ubuntu Website**](https://ubuntu.com/download/desktop) & download Ubuntu image(ISO file).
+    Goto [**Ubuntu Website**](https://ubuntu.com/download/desktop) & download Ubuntu image(ISO file). 
 
   
  2. Create a Bootable USB :
@@ -99,7 +99,7 @@
    
         > sudo apt-get install ubuntu-restricted-extras
 
-
+&nbsp;
 
 ### **New User**
 
@@ -152,6 +152,7 @@
 
    If the new user has sudo privileges, they will be able to run the command without any issues.
 
+&nbsp;
 
    References: 
    

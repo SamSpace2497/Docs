@@ -1,5 +1,6 @@
 # **Ubuntu Setup**
 
+&nbsp;
 
 ### **Installation :**
 
@@ -18,7 +19,8 @@
    * Pre-Installed Systems
 
      This guide explains Ubuntu installation using USB flash drive. Follow the official guide to install Ubuntu : [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
-     
+
+     &nbsp;
 
  1. Download Ubuntu ISO :
      
@@ -97,9 +99,7 @@
   
         > sudo apt-get install ubuntu-restricted-extras
 
-
-
-
+&nbsp;
 
 ### **New User**
 
@@ -152,6 +152,7 @@
 
    If the new user has sudo privileges, they will be able to run the command without any issues.
 
+&nbsp;
 
    References: 
    
