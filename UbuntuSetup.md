@@ -1,7 +1,5 @@
 # **Ubuntu Setup**
 
-&nbsp;
-
 ### **Installation :**
 
   You can install Linux in several ways, depending on your preferences and technical expertise. Here are some common methods:
@@ -19,8 +17,6 @@
    * Pre-Installed Systems
 
      This guide explains Ubuntu installation using USB flash drive. Follow the official guide to install Ubuntu : [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
-
-     &nbsp;
 
  1. Download Ubuntu ISO :
      
@@ -154,7 +150,7 @@
 
 &nbsp;
 
-   References: 
+   **References:** 
    
  * [**install-ubuntu-desktop#1-overview**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
