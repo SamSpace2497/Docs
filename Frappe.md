@@ -56,7 +56,7 @@
  
  7. Install MariaDB:
 
-    Follow instructions from [MariaDB](https://downloads)
+    Follow instructions from [MariaDB](https://github.com/SamSpace2497/Docs/blob/main/MariaDB.md)
 
     
 
