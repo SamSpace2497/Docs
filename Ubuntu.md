@@ -63,11 +63,11 @@
 
 16. Update and Install Software: 
 
-    Once you've logged in, you should update your system and install any necessary software. You can do this by opening the terminal (Ctrl+Alt+T) and running the following commands:
+   Once you've logged in, you should update your system and install any necessary software. You can do this by opening the terminal (Ctrl+Alt+T) and running the following commands:
   
-        `> sudo apt-get update && sudo apt-get dist-upgrade`
+      > sudo apt-get update && sudo apt-get dist-upgrade
   
-        `> sudo apt-get install ubuntu-restricted-extras`
+      > sudo apt-get install ubuntu-restricted-extras
 
 
 
@@ -80,25 +80,25 @@
    Use the adduser command to add the new user, followed by the username. For example:
   
 
-      `> sudo adduser [newuser]`
+      > sudo adduser [newuser]
 
-      `> su [newuser]` (to switch to the new user)
+      > su [newuser] (to switch to the new user)
 
 2. Create home directory:
 
    The adduser command creates the home directory for the new user and sets the correct permissions. If the home directory is not created, you can create it manually using the following command:
 
-      `> sudo mkdir /home/newuser`
+      > sudo mkdir /home/newuser
 
-      `> cd  /home/newuser`
+      > cd  /home/newuser
 
-      `> sudo chown newuser .`
+      > sudo chown newuser .
 
 3. Set user password:
 
    To set the password for the new user, use the passwd command followed by the username. For example:
 
-      `> sudo passwd newuser`
+      > sudo passwd newuser
 
    You will be prompted to enter a password for the new user.
 
@@ -106,15 +106,15 @@
 
    To grant sudo privileges to the new user, you need to add them to the sudo group. You can do this by editing the sudoers file using the visudo command. Add the following line to the file, replacing newuser with the name of the new user:
 
-      `> newuser ALL=(ALL:ALL) ALL`
+      > newuser ALL=(ALL:ALL) ALL
 
-      `> usermod -aG sudo newuser`  
+      > usermod -aG sudo newuser  
 
 5. Confirm sudo privileges:
 
    To confirm that the new user has sudo privileges, log out of the system and log back in as the new user. Then, run the following command to test sudo:
 
-      `> sudo ls -la /root`
+      > sudo ls -la /root
 
    If the new user has sudo privileges, they will be able to run the command without any issues.
 
