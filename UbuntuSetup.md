@@ -68,3 +68,58 @@
     `> sudo apt-get update && sudo apt-get dist-upgrade`
   
     `> sudo apt-get install ubuntu-restricted-extras`
+
+
+
+### **New User**
+
+   Create new users as a security measure to prevent root user access. New user will be assigned to selective permissions.
+
+1. Add new user:
+   
+   Use the adduser command to add the new user, followed by the username. For example:
+  
+
+      `> sudo adduser [newuser]`
+
+      `> su [newuser]` (to switch to the new user)
+
+2. Create home directory:
+
+   The adduser command creates the home directory for the new user and sets the correct permissions. If the home directory is not created, you can create it manually using the following command:
+
+      `> sudo mkdir /home/newuser`
+
+      `> cd  /home/newuser`
+
+      `> sudo chown newuser .`
+
+3. Set user password:
+
+   To set the password for the new user, use the passwd command followed by the username. For example:
+
+      `> sudo passwd newuser`
+
+   You will be prompted to enter a password for the new user.
+
+4. Grant sudo privileges:
+
+   To grant sudo privileges to the new user, you need to add them to the sudo group. You can do this by editing the sudoers file using the visudo command. Add the following line to the file, replacing newuser with the name of the new user:
+
+      `> newuser ALL=(ALL:ALL) ALL`
+
+      `> usermod -aG sudo newuser`  
+
+5. Confirm sudo privileges:
+
+   To confirm that the new user has sudo privileges, log out of the system and log back in as the new user. Then, run the following command to test sudo:
+
+      `> sudo ls -la /root`
+
+   If the new user has sudo privileges, they will be able to run the command without any issues.
+
+
+   References: [Ubuntu Documentation](https://help.ubuntu.com/community/AddUsersToTheSystem)
+
+
+
