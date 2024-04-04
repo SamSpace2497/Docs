@@ -5,20 +5,20 @@
 
 * Type in any one of following commands on ubuntu terminal:
 
-      `>sudo systemctl restart network-manager` 
+      > sudo systemctl restart network-manager 
 
-      `>sudo apt install linux-firmware`
+      > sudo apt install linux-firmware
 
-      `>nmcli dev wifi rescan`
+      > nmcli dev wifi rescan
 
-      `>sudo nmcli device wifi connect <ssid> password <password> ifname wlan0`
+      > sudo nmcli device wifi connect <ssid> password <password> ifname wlan0
 
 
 #### **Ethernet**
 
-    `>ip link set eth0 down`  
-
-    `>ip link set eth0 up` 
+       > ip link set eth0 down
+       
+       > ip link set eth0 up
 
 
 ### **Delete Windows Partition**
@@ -27,16 +27,16 @@
 
 2. Type in the following commands one by one:
 
-       `->diskmgmt.msc` (diskpart)
+       -> diskmgmt.msc (diskpart)
 
-       `->list disk`
+       -> list disk
 
-       `->select disk (diskname)`
+       -> select disk (diskname)
 
-       `->list partition` 
+       -> list partition 
    
-       `->select partition (partitionname)`
+       -> select partition (partitionname)
    
-       `->delete partition (partitionname)` 
+       -> delete partition (partitionname)
 
 3. Click Start > Power > Shut Down
