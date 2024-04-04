@@ -142,6 +142,6 @@
 
    **References:** 
    
- * [**install-ubuntu-desktop#1-overview**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+ * [**ubuntu.com**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
- * [**balenaEtcher**](https://etcher.balena.io/#download-etcher)
+ * [**etcher.balena.io**](https://etcher.balena.io/#download-etcher)

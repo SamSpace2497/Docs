@@ -90,10 +90,52 @@
 
         > EXIT;
 
+&nbsp;
+
+### **Password Change** 
+
+ 1. Access MariaDB:
+    
+    To access MariaDB, run the following command in the terminal:
+
+        > sudo mysql -u root -p
+
+    You will be prompted to enter the password for the MariaDB root user.
+          
+ 2. Change password of user:
+
+    To change the password for a user in MariaDB, use the ALTER USER command in the MariaDB prompt. For example, the following command changes the password for the user myuser to newpassword:    
+
+        > ALTER USER 'myuser'@'localhost' IDENTIFIED BY 'newpassword';
+
+    OR
+
+        > GRANT ALL PRIVILEGES ON mysql.* TO 'myuser'@'localhost';
+
+    OR 
+
+        > GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'localhost' IDENTIFIED BY 'newpassword';
+
+    Replace myuser with the name of the user whose password you want to change, and newpassword with the new password that you want to set for the user.
+
+ 3. Flush privileges:
+
+    After changing the password, make sure to run the following command in the MariaDB prompt to flush the privileges:
+    
+        > FLUSH PRIVILEGES;
+
+ 4. Exit MariaDB:
+
+    To exit the MariaDB prompt, run the following command:
+
+        > EXIT;
+
+    That's it! The password for the user has been changed in MariaDB.
 
 &nbsp;
 
    **References:** 
    
- * [**building-mariadb-on-ubuntu**](https://mariadb.com/kb/en/building-mariadb-on-ubuntu//)
+ * [**mariadb.com**](https://mariadb.com/kb/en/building-mariadb-on-ubuntu//)
 
+ * [**packages.ubuntu.com**](https://packages.ubuntu.com/search?keywords=mariadb-server)
