@@ -66,6 +66,8 @@
 
 
 
+
+
 ### **Password Change** 
 
  1. Access MySQL:
@@ -95,11 +97,14 @@
         > EXIT;
 
 
-### **Access with sudo user**
 
-    To access mysql as a sudo user from the terminal, use the following command instead of "mysql":
+
+### **Access as sudo user**
+ -  To access mysql as a sudo user from the terminal, use the following command instead of "mysql":
      
         > sudo mysql -u username -p
+
+
 
  
 ### **Uninstall MySQL**
