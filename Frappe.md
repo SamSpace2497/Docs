@@ -21,6 +21,7 @@
 
         > cd  /home/newuser
 
+&nbsp;
 
 ### Prerequisites :   [**frappeframework.docs**](https://frappeframework.com/docs/user/en/prerequisites)
 
@@ -173,9 +174,7 @@
 
     Congratulations, you have installed bench on to your system. Now you are ready to deploy any app or build with Frappe Framework.
 
-
-
-
+&nbsp;
 
 ###   **References:** 
 

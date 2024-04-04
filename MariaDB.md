@@ -3,7 +3,7 @@
 
 ### **Installation on Ubuntu**
 
-**Follow the guide to install MySQL :**   [**`Install MariaDB`**](https://mariadb.com/kb/en/building-mariadb-on-ubuntu//)
+**Follow the guide to install MySQL :**   [**Install MariaDB**](https://mariadb.com/kb/en/building-mariadb-on-ubuntu//)
 
  1. Update package lists:
 
@@ -89,4 +89,11 @@
     To exit the MariaDB prompt, run the following command:
 
         > EXIT;
+
+
+&nbsp;
+
+   **References:** 
+   
+ * [**building-mariadb-on-ubuntu**](https://mariadb.com/kb/en/building-mariadb-on-ubuntu//)
 

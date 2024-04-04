@@ -1,9 +1,8 @@
 # **MySQL**
 
-
 ### **Installation on Ubuntu**
 
-**Follow the guide to install MySQL :**   [**`Install MySQL`**](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
+**Follow the guide to install MySQL :**   [**Install MySQL**](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
 
  1. Update package lists:
 
@@ -64,9 +63,7 @@
 
     That's it! You have successfully installed and set up MySQL on Ubuntu. You can now start using MySQL for your database needs.
 
-
-
-
+&nbsp;
 
 ### **Password Change** 
 
@@ -96,8 +93,7 @@
     
         > EXIT;
 
-
-
+&nbsp;
 
 ### **Access as sudo user**
  -  To access mysql as a sudo user from the terminal, use the following command instead of "mysql":
@@ -105,7 +101,7 @@
         > sudo mysql -u username -p
 
 
-
+&nbsp;
  
 ### **Uninstall MySQL**
 
@@ -146,4 +142,10 @@
     If there are any remaining packages, you can remove them using the apt-get remove command.
 
     That's it! MySQL has now been uninstalled from your Ubuntu system.
+
+&nbsp;
+
+   **References:** 
+   
+ * [**mysql-apt-repo-quick-guide**](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
 
