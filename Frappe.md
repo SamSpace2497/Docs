@@ -1,9 +1,11 @@
 # **Frappe Framework**
 
 
-### **Installation**
+### **Installation :**
+
 
 **Follow the guide to install Frappe :**   [**Frappe-Framework**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
+
 
  1. **Create a new user:**
 
@@ -20,8 +22,7 @@
         > cd  /home/newuser
 
 
-
- ### Prerequisites :  [**frappeframework.docs**](https://frappeframework.com/docs/user/en/prerequisites)
+### Prerequisites :   [**frappeframework.docs**](https://frappeframework.com/docs/user/en/prerequisites)
 
  2. **Update package lists:**
 
@@ -32,10 +33,12 @@
         > sudo apt-get update -y
         
         > sudo apt-get upgrade -y
+        
 
  3. **Install git and redis:**
 
         > sudo apt install git redis-server python3-pip
+
 
  4. **Install virtualenv for Python 3:**
     
@@ -54,6 +57,7 @@
     To activate the virtual environment, navigate to the directory where you created the environment and run the following command:
 
         > source myenv/bin/activate
+
  
  5. **Install & Configure MariaDB:**
 
@@ -89,6 +93,7 @@
 
     This will restart the MariaDB server and apply the new configuration.
 
+
  6. **Install Node:**
 
     Snap is a package manager for Linux that allows you to install and manage applications and packages. To install Snap on Ubuntu, run the following command in the terminal:
@@ -107,11 +112,13 @@
 
         > sudo apt install npm
 
+
  7. **Install yarn:**
 
     To install Yarn, which is a package manager for Node.js, run the following command in the terminal:
 
         > sudo npm install -g yarn
+
 
  8. **Install wkhtmltopdf:**
 
@@ -123,9 +130,11 @@
 
         > sudo dpkg -i [downloaded file].deb 
 
+
  9. **Install Nginx & Supervisor:**
 
         > sudo apt -y install nginx supervisor
+
 
 
 10. **Install Bench CLI:**
@@ -144,6 +153,7 @@
         break-system-package = true
 
     After succesfully editing, try installing bench again.
+
 
 11. **Use Bench CLI:**
 
@@ -169,7 +179,6 @@
 
 ###   **References:** 
 
-
  *  [**installation#debian-ubuntu**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
 
  *  [**frappeframework.prerequisites**](https://frappeframework.com/docs/user/en/prerequisites)
@@ -186,5 +195,5 @@
 
  *  [**wkhtmltopdf.org**](https://wkhtmltopdf.org/downloads.html)
 
- *  **For Developers** - Please refer to the [Development Guide](https://github.com/frappe/frappe/wiki/Guide-for-Developers)
+ *  [**Guide-for-Developers**](https://github.com/frappe/frappe/wiki/Guide-for-Developers)
 
