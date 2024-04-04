@@ -3,22 +3,21 @@
 
 ### **Installation :**
 
-   You can install Linux in several ways, depending on your preferences and technical expertise. Here are some common methods:
+  You can install Linux in several ways, depending on your preferences and technical expertise. Here are some common methods:
 
-   Dual Boot: This involves installing Linux alongside an existing operating system, such as Windows, allowing you to choose which one to use when you start your computer.
+   * Dual Boot
    
-   Live CD/USB: You can create a bootable CD or USB drive with a Linux distribution and run it directly from the media without installing it on your computer.
+   * Live CD/USB
    
-   Virtual Machine: Using software like VirtualBox or VMware, you can create a virtual machine on your existing operating system and install Linux within it.
+   * Virtual Machine
    
-   Wubi: This was a Windows-based Ubuntu installer that allowed you to install Ubuntu as a program within Windows. However, Wubi is no longer actively maintained.
+   * Wubi
    
-   Network Install: Some distributions allow you to install Linux over a network, downloading only the necessary components during the installation process.
+   * Network Install
    
-   Pre-Installed Systems: Some vendors offer computers with Linux pre-installed, so you don't have to install it yourself.
+   * Pre-Installed Systems
 
-
-   This guide explains Ubuntu installation using USB flash drive. Follow the official guide to install Ubuntu : [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+     This guide explains Ubuntu installation using USB flash drive. Follow the official guide to install Ubuntu : [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
 
  1. Download Ubuntu ISO :
