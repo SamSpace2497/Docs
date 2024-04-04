@@ -5,7 +5,7 @@
 
 **Follow the guide to install Frappe :**   [**`Frappe-Framework`**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
 
- 1. Create a new user:
+ 1. **Create a new user:**
 
     Create new user as a security measure to prevent root user access. New user will be assigned admin permissions and will be used as the main Frappe Bench user. [**`New User`**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
 
@@ -23,7 +23,7 @@
 
  ### Prerequisites :  [frappeframework.docs](https://frappeframework.com/docs/user/en/prerequisites)
 
- 2. Update package lists:
+ 2. **Update package lists:**
 
     Before installing any new packages, it's always a good idea to update the package lists for upgrades and new package installations. You can do this by running the following command in the terminal:
 
@@ -33,29 +33,29 @@
         
         > sudo apt-get upgrade -y
 
- 3. Install git and redis:
+ 3. **Install git and redis:**
 
         > sudo apt install git redis-server python3-pip
 
- 4. Install virtualenv for Python 3:
+ 4. **Install virtualenv for Python 3:**
     
     Virtualenv is a tool that allows you to create isolated Python environments. This is useful when you want to install and manage packages for a specific project without affecting other projects. To install virtualenv for Python 3, run the following command in the terminal:
 
         > sudo apt-get install python3-virtualenv
 
-    Set up the virtual environment for frappe:
+    *Set up the virtual environment for frappe:*
 
     To create a new virtual environment, navigate to the directory where you want to create the environment and run the following command, replacing myenv with the name of your virtual environment:
 
         > python3 -m venv myenv
 
-    Activate the virtual environment:
+    *Activate the virtual environment:*
     
     To activate the virtual environment, navigate to the directory where you created the environment and run the following command:
 
         > source myenv/bin/activate
  
- 5. Install & Configure MariaDB:
+ 5. **Install & Configure MariaDB:**
 
     Follow instructions from [MariaDB](https://github.com/SamSpace2497/Docs/blob/main/MariaDB.md)
 
@@ -63,7 +63,7 @@
         
         > sudo apt install mariadb-server mariadb-client
     
-    MariaDB configuration :
+    *MariaDB configuration :*
 
     To open the MariaDB configuration file for editing, run the following command in the terminal:
 
@@ -89,7 +89,7 @@
 
     This will restart the MariaDB server and apply the new configuration.
 
- 6. Install Node:
+ 6. **Install Node:**
 
     Snap is a package manager for Linux that allows you to install and manage applications and packages. To install Snap on Ubuntu, run the following command in the terminal:
 
@@ -101,19 +101,19 @@
 
     This command installs the latest version of Node.js using the --classic flag, which allows the application to have full access to the system. 
     
-  * Install npm:
+  * *Install npm:*
     
     npm (Node Package Manager) is a package manager for Node.js that allows you to install and manage Node.js packages. To install npm, run the following command in the terminal:
 
         > sudo apt install npm
 
- 7. Install yarn:
+ 7. **Install yarn:**
 
     To install Yarn, which is a package manager for Node.js, run the following command in the terminal:
 
         > sudo npm install -g yarn
 
- 8. Install wkhtmltopdf:
+ 8. **Install wkhtmltopdf:**
 
         > sudo apt-get install xvfb libfontconfig
 
@@ -123,12 +123,12 @@
 
         > sudo dpkg -i [downloaded file].deb 
 
- 9. Install Nginx & Supervisor:
+ 9. **Install Nginx & Supervisor:**
 
         > sudo apt -y install nginx supervisor
 
 
-10. Install Bench CLI:
+10. **Install Bench CLI:**
 
     Install Bench CLI using pip, by running the following command in the terminal:
 
@@ -138,14 +138,14 @@
 
         > sudo nano /etc/pip.conf
 
-    modify:
+    *modify:*
 
         [global]
         break-system-package = true
 
     After succesfully editing, try installing bench again.
 
-11. Use Bench CLI:
+11. **Use Bench CLI:**
 
     To use Bench CLI, you can run the following command in the terminal:
 
@@ -167,7 +167,7 @@
 
 
 
-###   References: 
+###   **References:** 
 
 
  *  [**`Frappe-Framework.docs`**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
@@ -182,5 +182,5 @@
 
  *  [**`Frappé ERPNext Documentation`**](https://erpnext.org/docs/user/manual/en/introduction/installation)
 
- *  **For Developers** - Please refer to the [Development Guide](https://github.com/frappe/frappe/wiki/Guide-for-Developers).</s
+ *  **For Developers** - Please refer to the [Development Guide](https://github.com/frappe/frappe/wiki/Guide-for-Developers)
 
