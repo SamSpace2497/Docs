@@ -166,3 +166,21 @@
 
 
 
+
+###   References: 
+
+
+ *  [**`Frappe-Framework.docs`**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
+
+ *  [**`frappeframework.prerequisites`**](https://frappeframework.com/docs/user/en/prerequisites)
+
+ *  [**`Bench Installation Guide`**](http://frappeframework.com/docs/user/en/install_applications#bench-cli)    
+
+ *  [**`New User`**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
+
+ *  [**`discuss.frappe.io`**](https://discuss.frappe.io/t/guide-how-to-install-erpnext-v14-on-linux-ubuntu-step-by-step-instructions/92960)
+
+ *  [**`Frappé ERPNext Documentation`**](https://erpnext.org/docs/user/manual/en/introduction/installation)
+
+ *  **For Developers** - Please refer to the [Development Guide](https://github.com/frappe/frappe/wiki/Guide-for-Developers).</s
+
