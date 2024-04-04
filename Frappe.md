@@ -3,11 +3,11 @@
 
 ### **Installation**
 
-**Follow the guide to install Frappe :**   [**`Frappe-Framework`**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
+**Follow the guide to install Frappe :**   [**Frappe-Framework**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
 
  1. **Create a new user:**
 
-    Create new user as a security measure to prevent root user access. New user will be assigned admin permissions and will be used as the main Frappe Bench user. [**`New User`**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
+    Create new user as a security measure to prevent root user access. New user will be assigned admin permissions and will be used as the main Frappe Bench user. [**New User**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
 
         > sudo adduser [newuser]
 
@@ -21,7 +21,7 @@
 
 
 
- ### Prerequisites :  [frappeframework.docs](https://frappeframework.com/docs/user/en/prerequisites)
+ ### Prerequisites :  [**frappeframework.docs**](https://frappeframework.com/docs/user/en/prerequisites)
 
  2. **Update package lists:**
 
@@ -57,7 +57,7 @@
  
  5. **Install & Configure MariaDB:**
 
-    Follow instructions from [MariaDB](https://github.com/SamSpace2497/Docs/blob/main/MariaDB.md)
+    Follow instructions from [**MariaDB**](https://github.com/SamSpace2497/Docs/blob/main/MariaDB.md)
 
         > sudo apt-get install software-properties-common
         
@@ -119,7 +119,7 @@
 
         > sudo apt-get install libmysqlclient-dev
 
-    To download wkhtmltopdf, visit the [official website](https://wkhtmltopdf.org/downloads.html) and choose the version that matches your system. After downloading the installer, navigate to the directory where you downloaded the file and run the following command in the terminal:
+    To download wkhtmltopdf, visit the [**official website**](https://wkhtmltopdf.org/downloads.html) and choose the version that matches your system. After downloading the installer, navigate to the directory where you downloaded the file and run the following command in the terminal:
 
         > sudo dpkg -i [downloaded file].deb 
 
@@ -170,17 +170,21 @@
 ###   **References:** 
 
 
- *  [**`Frappe-Framework.docs`**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
+ *  [**installation#debian-ubuntu**](https://frappeframework.com/docs/user/en/installation#debian-ubuntu)
 
- *  [**`frappeframework.prerequisites`**](https://frappeframework.com/docs/user/en/prerequisites)
+ *  [**frappeframework.prerequisites**](https://frappeframework.com/docs/user/en/prerequisites)
 
- *  [**`Bench Installation Guide`**](http://frappeframework.com/docs/user/en/install_applications#bench-cli)    
+ *  [**install_applications#bench-cli**](http://frappeframework.com/docs/user/en/install_applications#bench-cli)    
 
- *  [**`New User`**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
+ *  [**New User**](https://github.com/SamSpace2497/Docs/blob/main/UbuntuSetup.md)
 
- *  [**`discuss.frappe.io`**](https://discuss.frappe.io/t/guide-how-to-install-erpnext-v14-on-linux-ubuntu-step-by-step-instructions/92960)
+ *  [**discuss.frappe.io**](https://discuss.frappe.io/t/guide-how-to-install-erpnext-v14-on-linux-ubuntu-step-by-step-instructions/92960)
 
- *  [**`Frappé ERPNext Documentation`**](https://erpnext.org/docs/user/manual/en/introduction/installation)
+ *  [**erpnext.org**](https://erpnext.org/docs/user/manual/en/introduction/installation)
+
+ *  [**MariaDB**](https://github.com/SamSpace2497/Docs/blob/main/MariaDB.md)
+
+ *  [**wkhtmltopdf.org**](https://wkhtmltopdf.org/downloads.html)
 
  *  **For Developers** - Please refer to the [Development Guide](https://github.com/frappe/frappe/wiki/Guide-for-Developers)
 
