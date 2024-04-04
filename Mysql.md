@@ -9,13 +9,13 @@
 
     Before installing any new packages, it's always a good idea to update the package lists for upgrades and new package installations. You can do this by running the following command in the terminal:
 
-        `> sudo apt-get update`
+        > sudo apt-get update
 
  2. Install MySQL server:
 
     To install MySQL server, run the following command in the terminal:
 
-        `> sudo apt-get install mysql-server`
+        > sudo apt-get install mysql-server
 
     You will be prompted to enter a password for the MySQL root user. Make sure to choose a strong password and remember it.
 
@@ -23,7 +23,7 @@
     
     After installing MySQL server, you should run the MySQL security script to improve the security of your installation. You can do this by running the following command in the terminal:
 
-        `> sudo mysql_secure_installation`
+        > sudo mysql_secure_installation
 
     You will be prompted to enter the current password for the MySQL root user. Then, you will be asked to set a new password for the MySQL root user, remove the anonymous user, disable remote root login, and remove the test database.
 
@@ -31,17 +31,17 @@
 
     To start the MySQL server, run the following command in the terminal:
  
-        `> sudo systemctl start mysql`
+        > sudo systemctl start mysql
 
     To ensure that the MySQL server starts automatically when the system boots, run the following command in the terminal:   
 
-        `> sudo systemctl enable mysql` 
+        > sudo systemctl enable mysql 
 
  5. Access MySQL:
     
     To access MySQL, run the following command in the terminal:
 
-        `> mysql -u root -p`
+        > mysql -u root -p
 
     You will be prompted to enter the password for the MySQL root user.
 
@@ -49,10 +49,10 @@
     
     To create a new database and user, run the following commands in the MySQL prompt:
 
-        `> CREATE DATABASE mydatabase;`
-        `> CREATE USER 'myuser' IDENTIFIED BY 'mypassword';`
-        `> GRANT ALL PRIVILEGES ON mydatabase.* TO 'myuser';`
-        `> FLUSH PRIVILEGES;`
+        > CREATE DATABASE mydatabase;
+        > CREATE USER 'myuser' IDENTIFIED BY 'mypassword';
+        > GRANT ALL PRIVILEGES ON mydatabase.* TO 'myuser';
+        > FLUSH PRIVILEGES;
     
     Replace mydatabase with the name of your database, myuser with the name of your user, and mypassword with the password for your user.
 
@@ -72,7 +72,7 @@
     
     To access MySQL, run the following command in the terminal:
 
-        `> mysql -u root -p`
+        > mysql -u root -p
 
     You will be prompted to enter the password for the MySQL root user.
           
@@ -80,11 +80,11 @@
 
     Once you are logged in to MySQL, you can change the password for a user by running the following command in the MySQL prompt:      
 
-        `> ALTER USER 'username' IDENTIFIED BY 'newpassword';`
+        > ALTER USER 'username' IDENTIFIED BY 'newpassword';
 
     OR
 
-        `> UPDATE USER SET PLUGIN = 'newpassword' WHERE USER = 'username'`   
+        > UPDATE USER SET PLUGIN = 'newpassword' WHERE USER = 'username'   
 
     Replace username with the name of the user whose password you want to change, and newpassword with the new password that you want to set for the user.
 
@@ -92,36 +92,27 @@
 
     Once you have changed the password, run the following command to exit the MySQL prompt:
     
-        `> EXIT;`
+        > EXIT;
 
 
 ### **Access with sudo user**
 
     To access mysql as a sudo user from the terminal, use the following command instead of "mysql":
      
-       `>sudo mysql -u username -p`
+        > sudo mysql -u username -p
 
  
 ### **Uninstall MySQL**
-
- 1. To  uninstall MySQL completely, follow these steps:
-  
-    * Open Terminal.app on Mac OS X or gnome-terminal on Linux.
-        
-    * Enter the following commands one by one (you may need to replace "root" and "" with your own values):
-
 
  1. Stop MySQL:
     
     First, you need to stop the MySQL server by running the following command in the terminal:
 
-        `> sudo systemctl stop mysql`
+        > sudo systemctl stop mysql
 
  2. Uninstall MySQL:
 
-    To uninstall MySQL, you can use the following command:
-
-        `> sudo apt-get remove --purge mysql-server mysql-client mysql-common`
+        > sudo apt-get remove --purge mysql-server mysql-client mysql-common
 
     This command will remove the MySQL server and client packages and any configuration files associated with them.
 
@@ -129,15 +120,15 @@
     
     If you want to remove the MySQL data directory, which contains the databases and other data, you can use the following command:
 
-        `> sudo rm -rf /var/lib/mysql`
+        > sudo rm -rf /var/lib/mysql
 
  4. Remove other MySQL packages:
 
     To remove any other MySQL packages that may have been installed, you can use the following command:
 
-        `> sudo apt-get autoremove`
+        > sudo apt-get autoremove
 
-        `> sudo apt-get autoclean`
+        > sudo apt-get autoclean
 
     This command will remove any packages that were installed as dependencies of MySQL but are no longer needed.
 
@@ -145,10 +136,9 @@
 
     To check if there are any remaining MySQL packages on your system, you can use the following command:
 
-        `> dpkg -l | grep mysql`
+        > dpkg -l | grep mysql
 
     If there are any remaining packages, you can remove them using the apt-get remove command.
-
 
     That's it! MySQL has now been uninstalled from your Ubuntu system.
 
