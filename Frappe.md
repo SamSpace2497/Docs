@@ -162,9 +162,11 @@
 
         > cd ~
         
-        > bench init frappe-bench
+        > bench init --frappe-branch version-15 frappe-bench
 
-    This will create a new Bench directory called frappe-bench.
+    This will create a new Bench directory called frappe-bench. This will be the main directory from where we will be running all the commands.
+    
+    The full path of this directory will be: /home/[user]/frappe-bench/
 
     After the frappe-bench folder is created, change your directory to it and run this command
 
@@ -172,7 +174,67 @@
 
         > bench start
 
+    Change user directory permissions:
+
+    This will allow execution permission to the home directory of the user we created in step 1
+
+        > chmod -R o+rx /home/[newuser]/
+
     Congratulations, you have installed bench on to your system. Now you are ready to deploy any app or build with Frappe Framework.
+
+12. **Create a New Site:**
+
+    We will use this as the default site where ERPNext and other apps will be installed.
+
+        > bench new-site site.localhost
+
+13. **Install ERPNext and other Apps:**
+
+    Download the necessary apps for the server
+
+    Download the payments apps . This app is required during ERPNext installation
+
+        > bench get-app payments
+
+    Download & Install the main ERPNext app :
+
+        > bench get-app --branch version-15 erpnext
+
+        > bench --site site.localhost install-app erpnext
+
+14. SETUP PRODUCTION SERVER:
+
+    Enable scheduler service:
+
+        > bench --site site.localhost enable-scheduler
+
+    Disable maintenance mode:
+
+        > bench --site site.localhost set-maintenance-mode off
+
+    Setup production config:
+
+        > sudo bench setup production [user]
+
+    Setup NGINX web server:
+
+        > bench setup nginx
+
+    Final server setup:
+
+        > sudo supervisorctl restart all
+
+        > sudo bench setup production [user] 
+
+    When prompted to save new/existing config files, hit “Y”
+
+    You can now go to your server [IP-address]:80 and you will have a fresh new installation of ERPNext ready to be configured!
+
+15. Test your Server:
+
+    Open a browser and go to `http://your_server_ip` or `http://your_domain`. You should see the login screen of ERPNext. Use the credentials
+   
+    Open a browser and go to http://site.localhost (replace "site" with whatever you used in step 14) 
 
 &nbsp;
 
