@@ -230,12 +230,6 @@
 
     You can now go to your server [IP-address]:80 and you will have a fresh new installation of ERPNext ready to be configured!
 
-15. Test your Server:
-
-    Open a browser and go to `http://your_server_ip` or `http://your_domain`. You should see the login screen of ERPNext. Use the credentials
-   
-    Open a browser and go to http://site.localhost (replace "site" with whatever you used in step 14) 
-
 &nbsp;
 
 ###   **References:** 
