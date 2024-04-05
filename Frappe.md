@@ -254,3 +254,6 @@
 
  *  [**frappe.school**](https://frappe.school/lms/courses/frappe-framework-course/learn/2-1)
 
+ *  [**ERPNext-installation-Guide**](https://github.com/D-codE-Hub/ERPNext-installation-Guide/blob/main/README.md) 
+
+ *  [**demo app**](https://github.com/D-codE-Hub/demo_app)
