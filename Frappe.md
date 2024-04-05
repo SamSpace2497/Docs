@@ -252,3 +252,5 @@
 
  *  [**Guide-for-Developers**](https://github.com/frappe/frappe/wiki/Guide-for-Developers)
 
+ *  [**frappe.school**](https://frappe.school/lms/courses/frappe-framework-course/learn/2-1)
+
